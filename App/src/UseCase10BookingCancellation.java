@@ -6,6 +6,7 @@
  * Use Case 10: Booking Cancellation & Inventory Rollback
  * @developer RamyaAnandan
  * @version 10.0
+ *
  */
 public class UseCase10BookingCancellation {
 
@@ -32,7 +33,7 @@ public class UseCase10BookingCancellation {
         service.showRollbackHistory();
 
         // Show updated inventory
-        System.out.println("\nUpdated Single Room Availability: "
-                + inventory.getRoomAvailability().get("Single"));
+        System.out.println("\nUpdated Single Room Availability: " + inventory.getRoomAvailability().get("Single"));
+
     }
 }
