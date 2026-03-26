@@ -29,3 +29,4 @@ public class Service {
     public double getCost() {
         return cost;
     }
+}
